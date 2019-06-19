@@ -6,7 +6,7 @@ import { observable } from 'mobx';
 import Parse from '../../parse/parseServer';
 import { withRouter, Link } from 'react-router-dom';
 import Stores from '../../storeConfig/register';
-import { mapCss } from '../../../../admin/app/libs/extensions';
+import { mapCss } from '../../libs/extensions';
 
 const { TextArea } = Input;
 const Editor = ({ onChange, onSubmit, submitting, value }) => (
