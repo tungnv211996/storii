@@ -9,7 +9,6 @@ import Loading from '../../components/Loading/index';
 import { mediaContentType } from '../../libs/commonEnum';
 import { Spin, Skeleton } from 'antd';
 import Stores from '../../storeConfig/register';
-import AppConsts from '../../../../admin/app/libs/appConst';
 import appConst from '../../libs/appConst';
 import SkeletonCutomize from '../../components/Skeletion/index';
 
